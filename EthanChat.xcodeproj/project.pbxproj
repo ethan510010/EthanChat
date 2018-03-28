@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D489E4965959C3A3760686C /* Pods_EthanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9CCA1CFBD1AF51606DABE3 /* Pods_EthanChat.framework */; };
+		D6B04995206A260F0086C839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04994206A260F0086C839 /* AppDelegate.swift */; };
+		D6B04997206A260F0086C839 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04996206A260F0086C839 /* LoginViewController.swift */; };
+		D6B0499A206A260F0086C839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B04998206A260F0086C839 /* Main.storyboard */; };
+		D6B0499C206A260F0086C839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B0499B206A260F0086C839 /* Assets.xcassets */; };
+		D6B0499F206A260F0086C839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0499D206A260F0086C839 /* LaunchScreen.storyboard */; };
+		D6B049A7206A28640086C839 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6B049A6206A28640086C839 /* GoogleService-Info.plist */; };
+		D6B049AA206A2BA90086C839 /* AddChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B049A9206A2BA90086C839 /* AddChannelCell.swift */; };
+		D6B049AD206A2BC30086C839 /* ShowCurrentChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B049AC206A2BC30086C839 /* ShowCurrentChannelCell.swift */; };
+		D6B049AF206A2C8B0086C839 /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B049AE206A2C8A0086C839 /* ChannelTableViewController.swift */; };
+		D6B049B1206A2D5E0086C839 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B049B0206A2D5E0086C839 /* Channel.swift */; };
+		D6B049B4206A5FE40086C839 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B049B3206A5FE40086C839 /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		408BE7EABB2E6B94DE93762E /* Pods-EthanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthanChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-EthanChat/Pods-EthanChat.release.xcconfig"; sourceTree = "<group>"; };
+		8D9CCA1CFBD1AF51606DABE3 /* Pods_EthanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B04991206A260F0086C839 /* EthanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B04994206A260F0086C839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6B04996206A260F0086C839 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6B04999206A260F0086C839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B0499B206A260F0086C839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6B0499E206A260F0086C839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6B049A0206A260F0086C839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B049A6206A28640086C839 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6B049A9206A2BA90086C839 /* AddChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelCell.swift; sourceTree = "<group>"; };
+		D6B049AC206A2BC30086C839 /* ShowCurrentChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCurrentChannelCell.swift; sourceTree = "<group>"; };
+		D6B049AE206A2C8A0086C839 /* ChannelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
+		D6B049B0206A2D5E0086C839 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		D6B049B3206A5FE40086C839 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FFD086E970DC125276444AD8 /* Pods-EthanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EthanChat/Pods-EthanChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B0498E206A260F0086C839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D489E4965959C3A3760686C /* Pods_EthanChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AFD674903BE1CD6A9DCA7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD086E970DC125276444AD8 /* Pods-EthanChat.debug.xcconfig */,
+				408BE7EABB2E6B94DE93762E /* Pods-EthanChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE93E61B2A78B5293D100871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D9CCA1CFBD1AF51606DABE3 /* Pods_EthanChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B04988206A260F0086C839 = {
+			isa = PBXGroup;
+			children = (
+				D6B04993206A260F0086C839 /* EthanChat */,
+				D6B04992206A260F0086C839 /* Products */,
+				26AFD674903BE1CD6A9DCA7B /* Pods */,
+				BE93E61B2A78B5293D100871 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B04992206A260F0086C839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04991206A260F0086C839 /* EthanChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B04993206A260F0086C839 /* EthanChat */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04994206A260F0086C839 /* AppDelegate.swift */,
+				D6B049A8206A2B8B0086C839 /* Controller */,
+				D6B04998206A260F0086C839 /* Main.storyboard */,
+				D6B049AB206A2BAC0086C839 /* View */,
+				D6B0499B206A260F0086C839 /* Assets.xcassets */,
+				D6B0499D206A260F0086C839 /* LaunchScreen.storyboard */,
+				D6B049B2206A2D610086C839 /* Model */,
+				D6B049A6206A28640086C839 /* GoogleService-Info.plist */,
+				D6B049A0206A260F0086C839 /* Info.plist */,
+			);
+			path = EthanChat;
+			sourceTree = "<group>";
+		};
+		D6B049A8206A2B8B0086C839 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04996206A260F0086C839 /* LoginViewController.swift */,
+				D6B049AE206A2C8A0086C839 /* ChannelTableViewController.swift */,
+				D6B049B3206A5FE40086C839 /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6B049AB206A2BAC0086C839 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6B049A9206A2BA90086C839 /* AddChannelCell.swift */,
+				D6B049AC206A2BC30086C839 /* ShowCurrentChannelCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6B049B2206A2D610086C839 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6B049B0206A2D5E0086C839 /* Channel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B04990206A260F0086C839 /* EthanChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B049A3206A260F0086C839 /* Build configuration list for PBXNativeTarget "EthanChat" */;
+			buildPhases = (
+				00757B07DB95630DDFB07C51 /* [CP] Check Pods Manifest.lock */,
+				D6B0498D206A260F0086C839 /* Sources */,
+				D6B0498E206A260F0086C839 /* Frameworks */,
+				D6B0498F206A260F0086C839 /* Resources */,
+				5EAC168C0D57C3FCAF5DC6B1 /* [CP] Embed Pods Frameworks */,
+				9AE0552D9ADB519B5AA54601 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EthanChat;
+			productName = EthanChat;
+			productReference = D6B04991206A260F0086C839 /* EthanChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B04989206A260F0086C839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = EthanLin;
+				TargetAttributes = {
+					D6B04990206A260F0086C839 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D6B0498C206A260F0086C839 /* Build configuration list for PBXProject "EthanChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B04988206A260F0086C839;
+			productRefGroup = D6B04992206A260F0086C839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B04990206A260F0086C839 /* EthanChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B0498F206A260F0086C839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B0499F206A260F0086C839 /* LaunchScreen.storyboard in Resources */,
+				D6B049A7206A28640086C839 /* GoogleService-Info.plist in Resources */,
+				D6B0499C206A260F0086C839 /* Assets.xcassets in Resources */,
+				D6B0499A206A260F0086C839 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00757B07DB95630DDFB07C51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EthanChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EAC168C0D57C3FCAF5DC6B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EthanChat/Pods-EthanChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EthanChat/Pods-EthanChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE0552D9ADB519B5AA54601 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EthanChat/Pods-EthanChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B0498D206A260F0086C839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B049AD206A2BC30086C839 /* ShowCurrentChannelCell.swift in Sources */,
+				D6B049B1206A2D5E0086C839 /* Channel.swift in Sources */,
+				D6B049AF206A2C8B0086C839 /* ChannelTableViewController.swift in Sources */,
+				D6B049B4206A5FE40086C839 /* ChatViewController.swift in Sources */,
+				D6B04997206A260F0086C839 /* LoginViewController.swift in Sources */,
+				D6B04995206A260F0086C839 /* AppDelegate.swift in Sources */,
+				D6B049AA206A2BA90086C839 /* AddChannelCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6B04998206A260F0086C839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B04999206A260F0086C839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B0499D206A260F0086C839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B0499E206A260F0086C839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6B049A1206A260F0086C839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6B049A2206A260F0086C839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B049A4206A260F0086C839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD086E970DC125276444AD8 /* Pods-EthanChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47R4BK8PQH;
+				INFOPLIST_FILE = EthanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan510010.EthanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6B049A5206A260F0086C839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408BE7EABB2E6B94DE93762E /* Pods-EthanChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47R4BK8PQH;
+				INFOPLIST_FILE = EthanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan510010.EthanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B0498C206A260F0086C839 /* Build configuration list for PBXProject "EthanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B049A1206A260F0086C839 /* Debug */,
+				D6B049A2206A260F0086C839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B049A3206A260F0086C839 /* Build configuration list for PBXNativeTarget "EthanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B049A4206A260F0086C839 /* Debug */,
+				D6B049A5206A260F0086C839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B04989206A260F0086C839 /* Project object */;
+}
